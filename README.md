@@ -3,5 +3,5 @@ Resize is a command-line interface to easily resize a bunch of images written in
 # Getting Started
 *(Coming Soon)*
 
-# Documentation
+# Usage
 *(Coming Soon)*

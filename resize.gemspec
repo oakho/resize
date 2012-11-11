@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Antoine Lagadec"]
   s.date = "2012-11-11"
-  s.description = "CLI that let you resize a bunch of images"
+  s.description = "Resize is a command-line written in Ruby to easily resize a bunch of images."
   s.email = "hello@antoinelagadec.com"
   s.executables = ["resize"]
   s.extra_rdoc_files = [
@@ -22,11 +22,18 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "README.rdoc",
     "Rakefile",
+    "TODO.md",
     "VERSION",
+    "bin/resize",
     "lib/resize.rb",
+    "lib/resize/base.rb",
+    "lib/resize/runner.rb",
+    "resize.gemspec",
     "spec/resize_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -34,7 +41,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.23"
-  s.summary = "CLI that let you resize a bunch of images"
+  s.summary = "Resize is a command-line tool written in Ruby to easily resize a bunch of images."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

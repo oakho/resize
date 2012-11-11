@@ -18,8 +18,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "resize"
   gem.homepage = "http://github.com/oakho/resize"
   gem.license = "MIT"
-  gem.summary = %Q{CLI that let you resize a bunch of images}
-  gem.description = %Q{CLI that let you resize a bunch of images}
+  gem.summary = %Q{Resize is a command-line tool written in Ruby to easily resize a bunch of images.}
+  gem.description = %Q{Resize is a command-line written in Ruby to easily resize a bunch of images.}
   gem.email = "hello@antoinelagadec.com"
   gem.authors = ["Antoine Lagadec"]
   gem.executables = ["resize"]
