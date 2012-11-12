@@ -1,4 +1,4 @@
-Resize is a command-line interface to easily resize a bunch of images written in Ruby.
+Resize is a command-line interface written in Ruby to easily resize a stack of images.
 
 # Getting Started
 *(Coming Soon)*
